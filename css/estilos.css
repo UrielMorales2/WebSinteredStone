@@ -1,0 +1,451 @@
+@font-face{
+    font-family:"Pacifico";
+    src:url(../fonts/Pacifico-Regular.ttf);
+}
+@font-face{
+    font-family:"Montserrat";
+    src:url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face{
+    font-family:"Montserrat";
+    font-weight:bold;
+    src:url(../fonts/Montserrat-Bold.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    }
+    
+    body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background: #Fff;
+    }
+
+    /* ---estilos menú grande--- */
+    .headerConten{
+        /* display: flex; */
+        /* border: 10px solid firebrick; */
+        width: 100%;
+        padding-top: 0;
+    }
+    
+    .logo{
+        width: 6%;
+        height: 6%;
+        z-index: 10;
+        margin: 20px 90px;
+        /* margin: 0 auto; */
+        /* border: 1px solid hotpink; */
+    }
+    .menu-header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: space-around;
+        transition: 0.7s;
+        padding: 0px 0px;
+        z-index: 10;
+        background: #fff;
+        /* border: 2px solid rebeccapurple; */
+    }
+    .abajo{
+        background: #fff;
+        padding: 8px 20px;
+      }
+      .Contenedor_menu_grande{
+        display: flex;
+      }
+      .menu-nav{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin: 0 auto; */
+        height: 12%;
+        width: 100%;
+        /* border: 2px solid lawngreen; */
+        
+      }
+      .menu-contenedor_list{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        /* border: 2px solid magenta; */
+      }
+      .menu_list{
+        list-style: none;
+        padding: 5px;
+        width: 100%;
+        margin-top: 0;
+        /* border: 2px solid yellow; */
+      }
+      /* .menu_list:hover{
+        background: black;
+      } */
+      .menu_link{
+        text-decoration: none;
+        position: relative;
+        /* font-family: Arial, Helvetica, sans-serif; */
+        margin:  0 15px;
+        color: black;
+        letter-spacing: 2px;
+        font-weight: 600;
+        transition: 0.7s;
+        font-size: 1.3em;
+        /* background: rgba(0,0,0,0.1); */
+        padding: 10px;
+      
+        /* border: 2px solid aqua; */
+      
+      }
+      .zona1{
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        background-position: center center;
+    }
+    .abajo .menu_link{
+        color: black;
+    }
+    .menu_link::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        top: 40px;
+        /* top: 25px; */
+        left: 0;
+        right: 0;
+        height: 2px;
+        background-color: #551C50;
+      
+        transform: scaleX(0);
+        transform-origin: right;
+        transition: transform 0.3s ease-out;
+    }
+    .menu_link:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+    }
+    .abajo .logo{
+      width: 5%;
+      height: 5%;
+      /* margin: 0 auto; */
+      margin: 20px 90px;
+    }
+    .abajo .infoHeader{
+        display: none;
+    }
+    .abajo .menu_link{
+        font-size: 1.2em;
+        /* border: 2px solid teal; */
+    }
+
+
+
+
+
+
+
+
+
+
+
+.bannerseccion {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bannerContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.texContainer {
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #551C50;
+  color: #Fff;
+  width: 35%;
+  height: 30%;
+  z-index: 5;
+
+
+}
+.ttitleBanner{
+  font-size: 4.3em;
+  margin: 30px 0 10px 0;
+  width: 100%;
+}
+.textBanner{
+  font-size: 1.6em;
+  
+  width: 90%;
+  margin: 30px auto;
+
+}
+
+
+
+.imgbanner {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+.b1 {
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 70vh;
+}
+
+.b2 {
+  /* width: 100%; */
+  height: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(190%, 3%);
+
+  z-index: 5;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5); /* Ajusta los valores según el tamaño y color del sombreado */
+}
+
+
+/*--Beneficios-- */
+.beneficios_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.columna {
+  width: 30%; /* Ajusta el ancho de las columnas según tu diseño */
+  text-align: center;
+  
+}
+
+.columna i {
+ font-size: 8em;
+ color: #551C50;
+  
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  */ 
+}
+.iconosBeneficios{
+  border: 3px solid #551C50;
+  margin-top: 10px; 
+}
+
+.texto {
+  margin-top: 40px;
+  font-size: 1.6em;
+}
+
+.beneficios{
+  margin-top: 8%;
+ 
+}
+/* ---fin beneficios--- */
+
+
+
+/* ----Ventajas---- */
+  .Ventajas{
+    margin-top: 5%;
+  }
+  .ventajasContainer{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin: 0 auto;
+    padding: 50px;
+  }
+  .columna_50{
+    width: 50%;
+  }
+  .imgV{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+  
+  .imgventajas{
+    width: 80%;
+  }
+  .titleVentajas{ 
+    font-size: 4em;
+    font-weight: 600;
+    width: 60%;
+    padding-left: 20px;
+    color: #551C50;
+    /* margin-top: 10px; */
+    
+  }
+  .textVentajas{
+    text-align: justify;
+    padding: 30px;
+    color: #551C50;
+    font-size: 2em;
+  }
+  .iconVentajas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  .columImg{
+    width:33% ;
+    box-sizing: border-box;
+    padding: 5px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .textoV{
+    color: #551C50;
+    /* margin-top: 40px; */
+    font-size: 1.6em;
+    margin-top: 10px;
+  }
+
+  .masVentajas{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    /* margin-left: 1%; */
+    margin-top: 30px;
+  }
+  .linkMas{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #551C50;
+    color: #fff;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 30px;
+    
+  }
+  .masVentajasline{
+
+    width: 50%;
+    /* border-bottom:10px solid #551C50; */
+    display: inline-block;
+    padding: 5px 20px;
+    background-color: #551C50;
+    color: #fff;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  
+/* -------fin VEntajas------- */
+
+
+
+
+
+
+
+@media screen and (max-width: 2000px) and (min-width: 600px) { 
+  .menu_link{
+    margin:  0 5px;
+    letter-spacing: 1px;
+    transition: 0.7s;
+    font-size: 1em;
+    padding: 10px;
+  }
+  .abajo .menu_link{
+    font-size: 0.9em;
+    /* border: 2px solid teal; */
+}
+
+  
+  .bannerContainer{
+    top:5%;
+  }
+  .texContainer {
+    padding: 20px;
+    width: 40%;
+    height: 35%;  
+  }
+  .ttitleBanner{
+    margin: 1px auto;
+    font-size: 2.6em;
+  }
+  .textBanner{
+    font-size: 1em;
+    
+    width: 90%;
+    margin: 10px auto;
+  
+  }
+
+
+  .columna i {
+    font-size: 6em;
+    color: #551C50;
+  } 
+
+
+
+  /* ventjas */
+  .titleVentajas{ 
+    font-size: 2em;
+  }
+  .textVentajas{
+    font-size: 1em;
+  }
+  .imgIconVentjas{
+    width: 30%;
+  }
+  .textoV{
+    font-size: 1em;
+  }
+  .linkMas{
+    font-size: 1em;
+    
+  }
+
+ 
+}

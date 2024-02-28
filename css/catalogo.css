@@ -1,0 +1,311 @@
+@font-face{
+    font-family:"Pacifico";
+    src:url(../fonts/Pacifico-Regular.ttf);
+}
+@font-face{
+    font-family:"Montserrat";
+    src:url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face{
+    font-family:"Montserrat";
+    font-weight:bold;
+    src:url(../fonts/Montserrat-Bold.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+font-family: 'Montserrat', sans-serif;
+margin: 0;
+padding: 0;
+min-height: 100vh;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+background: #Fff;
+}
+
+
+.bannerseccion2 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerContainer2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    }
+
+.texContainer2 {
+    position: absolute;
+    right:  10%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #551C50;
+    color: #Fff;
+    width: 35%;
+    height: 40%;
+    z-index: 5;
+}
+.ttitleBanner2{
+    text-align:left;
+    font-size: 4.3em;
+    margin-top: 4%;
+    margin-left: 3%;
+    /* border: 3px solid #Fff; */
+    width: 80%;
+}
+.textBanner2{
+    font-size: 1.6em;
+    text-align: justify;
+    width: 90%;
+    margin: 30px auto;
+} 
+.imgbanner2 {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+.b12 {
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 70vh;
+}
+
+
+
+.ventajas{
+    width: 100%;
+    margin: 0 auto;
+}
+.containerIconText{
+    /* border: 5px solid chocolate; */
+    width: 100%;
+    display: flex;
+}
+
+
+.columIconText{
+    /* border: 3px solid greenyellow; */
+    width:35% ;
+    box-sizing: border-box;
+    padding-left: 5%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.colum50Ventajas{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10%;
+
+    /* border: 3px solid hotpink; */
+}
+.contecimgventajas{
+    /* border: 3px solid blue; */
+    width: 30%;
+}
+.textoVen{
+    /* border:3px solid magenta; */
+    width: 70%;
+    margin-left: 20px;
+    font-size: 1.3em ;
+    text-align: left;
+    font-weight: 600;
+    color: #551C50;
+}
+.columimg{
+    /* border: 3px solid gold; */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 75%;
+}
+.imgventajas{
+    /* border: 3px solid hotpink; */
+    padding: 5%;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    /* max-width: 100%; */
+}
+.columIconText2{
+    width:35% ;
+    box-sizing: border-box;
+    padding-left: 5%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.columIconText2{
+    /* border: 3px solid greenyellow; */
+    width:35% ;
+    box-sizing: border-box;
+    padding-right: 10%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.columimg2{
+    /* border: 3px solid gold; */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+}
+.imgventajas2{
+    /* border: 3px solid hotpink; */
+    padding-left:15%;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    /* max-width: 100%; */
+}
+
+
+
+
+
+/* ----tabla---- */
+.contenedorTabla{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 5%;
+}
+table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    /* border: 3px solid tan; */
+    margin-bottom: 10%;
+}
+
+.titleTable{
+    text-align: center;
+    font-weight: bold;
+    color: #551C50;
+    font-size: 3em;
+    /* border: 3px solid darkcyan; */
+    padding: 15px;
+    padding-bottom: 5%;
+}
+
+.titleFilas{
+    /* border: 3px solid darkcyan; */
+    font-size: 3em;
+    font-weight: 600;
+    
+    padding-bottom: 4%;
+    
+    color: #551C50;
+}
+
+
+
+.marca {
+    text-align: center;
+    color: #551C50;
+    font-size: 3em;
+}
+.marca2{
+    
+    text-align: center;
+    color: #777777;
+    font-size: 3em;
+}
+
+/* Estilos para las filas */
+
+
+/* Estilo para las celdas de la primera columna */
+td:first-child {
+    border-left: none;
+}
+
+/* Estilo para las celdas de la última columna */
+td:last-child {
+    border-right: none;
+}
+
+@media screen and (max-width: 2000px) and (min-width: 1333px) {     
+    .bannerContainer2{
+        top:5%;
+    }
+    .texContainer2 {
+        padding: 20px;
+        width: 40%;
+        height: 40%;  
+    }
+    .ttitleBanner2{
+        /* margin: 1px auto; */
+        font-size: 2.8em;
+    }
+    .textBanner2{
+        font-size: 1.1em;
+        width: 90%;
+        margin: 10px auto;
+    
+    }
+    .columIconText{
+        /* border: 3px solid red; */
+        width:25% ;
+        padding-left: 3%;
+    }
+    .colum50Ventajas{
+        margin-top: 10%;
+        /* border: 3px solid red; */
+    }
+    .imgIconVentjas{
+        width: 80%;
+    }
+    .textoVen{
+        font-size: 1.1em;
+    }
+    .containerIconText{
+        border:  3px solid blue;
+    }
+
+}
+
+
+@media screen and (max-width: 1900px) and (min-width: 1333px) {
+ 
+
+    .imgventajas{
+        padding: 2%;
+        max-width: 100%;
+        max-height: 100%;
+        width: auto;
+        height: auto;
+        /* max-width: 100%; */
+    }
+    .containerIconText{
+        border:  3px solid blue;
+    }
+}
