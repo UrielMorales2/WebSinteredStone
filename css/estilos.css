@@ -35,6 +35,7 @@
         /* border: 10px solid firebrick; */
         width: 100%;
         padding-top: 0;
+
     }
     
     .logo{
@@ -50,7 +51,7 @@
         top: 0;
         left: 0;
         width: 100%;
-        display: flex;
+        display: none;
         /* flex-direction: column; */
         justify-content: space-around;
         transition: 0.7s;
@@ -155,134 +156,324 @@
     }
 
 
-
-
-
-
-
-
-
-
-
-.bannerseccion {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.bannerseccion{
+  display: none;
 }
 
-.bannerContainer {
+.banner5{
+  margin-top: 100px;
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+}
+
+.banner__img5{
   width: 100%;
-  height: 100vh;
+  height: 500px;
+  object-fit: cover;
 }
 
-.texContainer {
-  position: absolute;
-  left: 10%;
-  top: 50%;
-  transform: translateY(-50%);
-  text-align: center;
-
-  display: inline-block;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: #551C50;
-  color: #Fff;
-  width: 35%;
-  height: 30%;
-  z-index: 5;
-
-
-}
-.ttitleBanner{
-  font-size: 4.3em;
-  margin: 30px 0 10px 0;
-  width: 100%;
-}
-.textBanner{
-  font-size: 1.6em;
-  
+.banner__content5{
   width: 90%;
-  margin: 30px auto;
-
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #fff;
+    /* background:rgba(85,28, 80, 0.7); ; */
+    background:rgb(85,28, 80) ;
+    /* text-align: ; */
+    position: absolute;
+    z-index: 4;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(35%);
+}
+.title__Banner{
+  /* border: 3px solid gold; */
+  margin-bottom: 5%;
 }
 
 
 
-.imgbanner {
-  max-width: 100%;
-  max-height: 100%;
-  width: auto;
-  height: auto;
+/* =====BENEFICIOS======= */
+.beneficios{
+  margin-top: 10%;
 }
-
-.b1 {
-  position: absolute;
-  right: 5%;
-  top: 50%;
-  transform: translateY(-50%);
-  height: 70vh;
-}
-
-.b2 {
-  /* width: 100%; */
-  height: 50%;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(190%, 3%);
-
-  z-index: 5;
-  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5); /* Ajusta los valores según el tamaño y color del sombreado */
-}
-
-
-/*--Beneficios-- */
 .beneficios_container {
-  display: flex;
+  /* display: flex; */
   justify-content: space-between;
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
+
+  column-count: 2; /* Establece el número de columnas */
+  column-gap: 20px; /* Establece el espacio entre columnas */
+  /* border: 3px solid greenyellow; */
+
+  
 }
 
 .columna {
-  width: 30%; /* Ajusta el ancho de las columnas según tu diseño */
+  break-inside: avoid; /* Evita que este div se divida entre columnas */
+  margin-bottom: 20px; /* Ajusta el espacio entre los elementos */
   text-align: center;
+  margin-top: 5%;
   
+  /* border: 3px solid gold; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+
+
 }
 
 .columna i {
- font-size: 8em;
- color: #551C50;
-  
-  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  */ 
-}
-.iconosBeneficios{
+  font-size: 2.3em;
+  color: #551C50;
+  margin-top: 10%;
+   /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  */ 
+ }
+
+ .iconosBeneficios{
   border: 3px solid #551C50;
   margin-top: 10px; 
+  margin-bottom: 5%;
 }
-
 .texto {
-  margin-top: 40px;
-  font-size: 1.6em;
+  font-size: 1em;
+  margin-bottom: 5%;
 }
 
-.beneficios{
-  margin-top: 8%;
+
+
+
+/* ========VENTAJAS========= */
+.Ventajas{
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+.columna_50{
+  width: 100%;
+}
+
+.imgventajas{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+
+.titleVentajas{ 
+  font-size: 2em;
+  font-weight: 600;
+  width: 85%;
+  padding-left: 20px;
+  color: #551C50;
+  /* margin-top: 10px; */
+  
+}
+.textVentajas{
+  text-align: justify;
+  padding: 30px;
+  color: #551C50;
+  font-size: 1.1em;
+}
+
+.iconVentajas{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  
+}
+
+.columImg{
+  width:50% ;
+  box-sizing: border-box;
+  padding: 5px;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+}
+.textoV{
+  color: #551C50;
+  /* margin-top: 40px; */
+  
+  margin-top: 10px;
+}
+
+
+.masVentajas{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  text-align: center;
+  /* margin-left: 1%; */
+  margin-top: 30px;
+}
+
+.linkMas{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #551C50;
+  color: #fff;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.3em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-right: 30px;
+  
+}
+
+.masVentajasline{
+
+  width: 50%;
+  /* border-bottom:10px solid #551C50; */
+  display: inline-block;
+  padding: 5px 20px;
+  background-color: #551C50;
+  color: #fff;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.imgIconVentjas{
+  /* border: 1px solid greenyellow; */
+  width: 50%;
+}
+
+
+
+
+
+
+
+/* --------------------------- */
+
+@media screen and (min-width:480px){
+  .menu-header{
+    display: none;
+  }
+}
+
+@media screen and (min-width:768px){
  
+ 
+  .banner5{
+    margin-top: 100px;
+  }
+
+  .title__Banner{
+    font-size: 2em;
+  }
+
+
+
+
+
+
+
+  .ventajasContainer{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin: 0 auto;
+    padding: 50px;
+  }
 }
-/* ---fin beneficios--- */
+
+@media screen and (min-width: 1120px)  { 
+  .menu-header{
+    display: flex;
+  }
+ 
+  
+
+
+  .ventajasContainer{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin: 0 auto;
+    padding: 50px;
+  }
+} 
+
+@media screen and (min-width:1300px){
+  .banner5{
+    margin-top: 108px;
+  }
+
+  .banner__content5{
+    width:50%;
+  }
+
+
+  .beneficios{
+    display: none;
+  }
 
 
 
-/* ----Ventajas---- */
+
+
+  .imgventajas{
+    width: 80%;
+    height: auto;
+  }
+  .titleVentajas{ 
+    font-size: 1.1em;
+    font-weight: 600;
+    width: 60%;
+    padding-left: 20px;
+    color: #551C50;
+    /* margin-top: 10px; */
+    
+  }
+  .textVentajas{
+    text-align: justify;
+    padding: 30px;
+    color: #551C50;
+    font-size: 1.1em;
+  }
+
+  
+  .imgIconVentjas{
+    /* border: 1px solid greenyellow; */
+    width: 20%;
+  }
+}
+
+@media screen and (min-width:1500px){
+  .banner__img5{
+    width: 100%;
+    height: 90vh;
+  }
+
+  .banner__content5{
+    width:40%;
+
+    
+  }
+
+  .title__Banner{
+    font-size: 3em;
+  }
+
+  .text__banner{
+    font-size: 1.3em;
+  }
+
+
+
+
+
+
+
+
   .Ventajas{
     margin-top: 5%;
   }
@@ -304,9 +495,10 @@
   
   .imgventajas{
     width: 80%;
+    height: auto;
   }
   .titleVentajas{ 
-    font-size: 4em;
+    font-size: 2em;
     font-weight: 600;
     width: 60%;
     padding-left: 20px;
@@ -318,7 +510,7 @@
     text-align: justify;
     padding: 30px;
     color: #551C50;
-    font-size: 2em;
+    font-size: 1.5em;
   }
   .iconVentajas{
     display: flex;
@@ -339,7 +531,7 @@
   .textoV{
     color: #551C50;
     /* margin-top: 40px; */
-    font-size: 1.6em;
+    font-size: 1.5em;
     margin-top: 10px;
   }
 
@@ -378,74 +570,12 @@
     font-weight: bold;
   }
 
-  
-/* -------fin VEntajas------- */
 
-
-
-
-
-
-
-@media screen and (max-width: 2000px) and (min-width: 600px) { 
-  .menu_link{
-    margin:  0 5px;
-    letter-spacing: 1px;
-    transition: 0.7s;
-    font-size: 1em;
-    padding: 10px;
-  }
-  .abajo .menu_link{
-    font-size: 0.9em;
-    /* border: 2px solid teal; */
-}
-
-  
-  .bannerContainer{
-    top:5%;
-  }
-  .texContainer {
-    padding: 20px;
-    width: 40%;
-    height: 35%;  
-  }
-  .ttitleBanner{
-    margin: 1px auto;
-    font-size: 2.6em;
-  }
-  .textBanner{
-    font-size: 1em;
-    
-    width: 90%;
-    margin: 10px auto;
-  
-  }
-
-
-  .columna i {
-    font-size: 6em;
-    color: #551C50;
-  } 
-
-
-
-  /* ventjas */
-  .titleVentajas{ 
-    font-size: 2em;
-  }
-  .textVentajas{
-    font-size: 1em;
-  }
   .imgIconVentjas{
+    /* border: 1px solid greenyellow; */
     width: 30%;
   }
-  .textoV{
-    font-size: 1em;
-  }
-  .linkMas{
-    font-size: 1em;
-    
-  }
-
- 
+  
+  
+  
 }
