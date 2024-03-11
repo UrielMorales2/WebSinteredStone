@@ -22,7 +22,7 @@
         include "header.php";
 ?>
     
-    <seccion class="bannerseccion">
+    <section class="bannerseccion">
         <div class="bannerContainer">
             <div class="texContainer">
                 <h1 class="ttitleBanner">Nosotros te ayudamos a resaltar tus superficies</h1>
@@ -38,8 +38,24 @@
                 <img src="img/ARISTON_WHITE_LANDING_PLACA.png" alt="" class="imgbanner b2">
             
         </div>
-    </seccion>
+    </section>
 
+
+    <!-- ======BANNER PEQUEÑO======== -->
+    <section class="banner5">
+        <img src="img/ARISTON_WHITE_LANDING_RENDER.png" class="banner__img5" alt="">
+        <div class="banner__content5">
+            <h1 class="title__Banner">Nosotros te ayudaremos a resaltar tus susperficies.</h1>
+            <p class="text__banner"> Nuestras Losas Sinterizadas hacen de cada espacio un 
+                recuerdo inolvidable, ya que son una mezcla de diseño y 
+                técnología.
+            </p>
+        </div>
+    </section>
+
+
+
+    <!-- =======BENEFICIOS======= -->
     <section class="beneficios">
         <div class="beneficios_container">
             <div class="columna">

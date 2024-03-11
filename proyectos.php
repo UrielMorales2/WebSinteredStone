@@ -23,7 +23,7 @@
         <div class="slider">
             <div class="slide"><img class="imgS" src="img/ARISTON_WHITE_LANDING_RENDER.png" alt="Slide 1"></div>
             <div class="slide"><img class="imgS" src="img/seccion_beneficios_03.png" alt="Slide 2"></div>
-            <div class="slide"><img class="imgS" src="img/ARISTON_WHITE_LANDING_RENDER.png" alt="Slide 3"></div>
+            <div class="slide"><img class="imgS" src="img//seccion_beneficios_01.png" alt="Slide 3"></div>
             <div class="slide"><img class="imgS" src="img/seccion_beneficios_03.png" alt="Slide 4"></div>
             <div class="slide"><img class="imgS" src="img/ARISTON_WHITE_LANDING_RENDER.png" alt="Slide 5"></div>
         </div>

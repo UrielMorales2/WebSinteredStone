@@ -35,13 +35,30 @@
     </seccion>
 
 
+    <!-- ======BANNER CHICO========= -->
+    <section class="bannerV">
+        <img src="img/ARISTON_WHITE_LANDING_RENDER.png" class="banner__img" alt="">
+        <div class="banner__content">
+            <h1 class="title__Banner">Ventajas de la Piedra Sinterizada</h1>
+            <p class="text__banner">La Piedra Sinterizada, también conocida como
+                    Piedra Tecnológica, se compone de ingredientes
+                    naturales derivados principalmente de tres elementos:
+                    Granito, Cuarzo y Feldspard. Estos componentes
+                    proporcionan al producto una combinación
+                    única de firmeza y flexibilidad.</p>
+        </div>
+    </section>
+
+
     <section class="ventajas">
-        <div class="ventajasContainer">
-            <div class="containerIconText">
+
+
+        <div class="ventajasContainer2">
+            
                 <div class="columIconText">
                     <div class="colum50Ventajas">
                         <div class="contecimgventajas">
-                            <img src="img/ICONO_BENEFICIOS-01.png" alt="" class="imgIconVentjas">
+                            <img src="img/ICONO_BENEFICIOS-01.png" alt="" class="imgIconVentjas2">
                         </div>
                         <div class="textoVen">Facilidad de Limpieza
                             y Mantenimiento
@@ -49,7 +66,7 @@
                     </div>
                     <div class="colum50Ventajas">
                         <div class="contecimgventajas">
-                            <img src="img/ICONO_BENEFICIOS-02.png" alt="" class="imgIconVentjas">
+                            <img src="img/ICONO_BENEFICIOS-02.png" alt="" class="imgIconVentjas2">
                         </div>
                         <div class="textoVen">Resistente a Productos de
                             Limpieza y Detergentes
@@ -57,7 +74,7 @@
                     </div>
                     <div class="colum50Ventajas">
                         <div class="contecimgventajas">
-                            <img src="img/ICONO_BENEFICIOS-03.png" alt="" class="imgIconVentjas">
+                            <img src="img/ICONO_BENEFICIOS-03.png" alt="" class="imgIconVentjas2">
                         </div>
                         <div class="textoVen">Superficie Higiénica
                             y Mantenimiento
@@ -67,21 +84,23 @@
                 <div class="columimg">
                     <img src="img/seccion_beneficios_01.png" alt="" class="imgventajas">
                     <img src="img/seccion_beneficios_02.png" alt="" class="imgventajas">
-                    <img src="img/placa_iron_landign_01.png" alt="" class="imgventajas">
+                    <img src="img/placa_iron_landign_01.png" alt="" class=" Placa">
                 </div>
-            </div>
+            
         </div>
-        <div class="ventajasContainer">
-            <div class="containerIconText">
+
+
+        <div class="ventajasContainer2">
+            <!-- <div class="containerIconText"> -->
                 <div class="columimg2">
                     
-                    <img src="img/placa_freezing_landign_01.png" alt="" class="imgventajas2">
+                    <img src="img/placa_freezing_landign_01.png" alt="" class="Placa3">
                     <img src="img/seccion_beneficios_03.png" alt="" class="imgventajas2">
                 </div>
                 <div class="columIconText2">
                     <div class="colum50Ventajas">
                         <div class="contecimgventajas">
-                            <img src="img/ICONO_BENEFICIOS-01.png" alt="" class="imgIconVentjas">
+                            <img src="img/ICONO_BENEFICIOS-01.png" alt="" class="imgIconVentjas2">
                         </div>
                         <div class="textoVen">Facilidad de Limpieza
                             y Mantenimiento
@@ -89,7 +108,7 @@
                     </div>
                     <div class="colum50Ventajas">
                         <div class="contecimgventajas">
-                            <img src="img/ICONO_BENEFICIOS-02.png" alt="" class="imgIconVentjas">
+                            <img src="img/ICONO_BENEFICIOS-02.png" alt="" class="imgIconVentjas2">
                         </div>
                         <div class="textoVen">Resistente a Productos de
                             Limpieza y Detergentes
@@ -97,7 +116,7 @@
                     </div>
                     <div class="colum50Ventajas">
                         <div class="contecimgventajas">
-                            <img src="img/ICONO_BENEFICIOS-03.png" alt="" class="imgIconVentjas">
+                            <img src="img/ICONO_BENEFICIOS-03.png" alt="" class="imgIconVentjas2">
                         </div>
                         <div class="textoVen">Superficie Higiénica
                             y Mantenimiento
@@ -105,14 +124,14 @@
                     </div>
                 </div>
                 
-            </div>
+            <!-- </div> -->
         </div>
-        <div class="ventajasContainer">
-            <div class="containerIconText">
+        <div class="ventajasContainer2">
+            <!-- <div class="containerIconText"> -->
                 <div class="columIconText">
                     <div class="colum50Ventajas">
                         <div class="contecimgventajas">
-                            <img src="img/ICONO_BENEFICIOS-01.png" alt="" class="imgIconVentjas">
+                            <img src="img/ICONO_BENEFICIOS-01.png" alt="" class="imgIconVentjas2">
                         </div>
                         <div class="textoVen">Facilidad de Limpieza
                             y Mantenimiento
@@ -120,7 +139,7 @@
                     </div>
                     <div class="colum50Ventajas">
                         <div class="contecimgventajas">
-                            <img src="img/ICONO_BENEFICIOS-02.png" alt="" class="imgIconVentjas">
+                            <img src="img/ICONO_BENEFICIOS-02.png" alt="" class="imgIconVentjas2">
                         </div>
                         <div class="textoVen">Resistente a Productos de
                             Limpieza y Detergentes
@@ -128,7 +147,7 @@
                     </div>
                     <div class="colum50Ventajas">
                         <div class="contecimgventajas">
-                            <img src="img/ICONO_BENEFICIOS-03.png" alt="" class="imgIconVentjas">
+                            <img src="img/ICONO_BENEFICIOS-03.png" alt="" class="imgIconVentjas2">
                         </div>
                         <div class="textoVen">Superficie Higiénica
                             y Mantenimiento
@@ -142,20 +161,20 @@
                     <img src="img/placa_iron_landign_01.png" alt="" class="imgventajas">
                     
                 </div>
-            </div>
+            <!-- </div> -->
         </div>
 
-        <div class="ventajasContainer">
-            <div class="containerIconText">
+        <div class="ventajasContainer2">
+            <!-- <div class="containerIconText"> -->
                 <div class="columimg2">
                     
-                    <img src="img/placa_freezing_landign_01.png" alt="" class="imgventajas2">
+                    <img src="img/placa_freezing_landign_01.png" alt="" class="Placa">
                     <img src="img/seccion_beneficios_03.png" alt="" class="imgventajas2">
                 </div>
                 <div class="columIconText2">
                     <div class="colum50Ventajas">
                         <div class="contecimgventajas">
-                            <img src="img/ICONO_BENEFICIOS-01.png" alt="" class="imgIconVentjas">
+                            <img src="img/ICONO_BENEFICIOS-01.png" alt="" class="imgIconVentjas2">
                         </div>
                         <div class="textoVen">Facilidad de Limpieza
                             y Mantenimiento
@@ -163,7 +182,7 @@
                     </div>
                     <div class="colum50Ventajas">
                         <div class="contecimgventajas">
-                            <img src="img/ICONO_BENEFICIOS-02.png" alt="" class="imgIconVentjas">
+                            <img src="img/ICONO_BENEFICIOS-02.png" alt="" class="imgIconVentjas2">
                         </div>
                         <div class="textoVen">Resistente a Productos de
                             Limpieza y Detergentes
@@ -171,7 +190,7 @@
                     </div>
                     <div class="colum50Ventajas">
                         <div class="contecimgventajas">
-                            <img src="img/ICONO_BENEFICIOS-03.png" alt="" class="imgIconVentjas">
+                            <img src="img/ICONO_BENEFICIOS-03.png" alt="" class="imgIconVentjas2">
                         </div>
                         <div class="textoVen">Superficie Higiénica
                             y Mantenimiento
@@ -179,7 +198,7 @@
                     </div>
                     <div class="colum50Ventajas">
                         <div class="contecimgventajas">
-                            <img src="img/ICONO_BENEFICIOS-03.png" alt="" class="imgIconVentjas">
+                            <img src="img/ICONO_BENEFICIOS-03.png" alt="" class="imgIconVentjas2">
                         </div>
                         <div class="textoVen">Superficie Higiénica
                             y Mantenimiento
@@ -187,7 +206,7 @@
                     </div>
                 </div>
                 
-            </div>
+            <!-- </div> -->
         </div>
 
         
@@ -243,6 +262,7 @@
             </tbody>
         </table>
     </div>
+    
 <?php
     include "footer.php";
 ?>
